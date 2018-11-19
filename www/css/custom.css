@@ -1,0 +1,16 @@
+img{
+    display: block;
+    /*width: 100px;*/
+    /*height: 100px;*/
+    margin: auto;
+    padding-top: 200px;
+}
+
+P{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
