@@ -12,5 +12,8 @@ P{
     height: 100px;
     margin: auto;
     padding-top: 50px;
+    font-weight: bold;
     text-align: center;
+    font-size: large;
+    color: #007E4D;
 }
