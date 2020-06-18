@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ZMSoftware.PhoenixApp" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Asso Antincendio</name>
     <description>
         Programma per la visualizzazione delle fatture, contratti, rapporti e altre informazioni, da parte dei clienti.
     </description>
-    <author email="surpanudaniel@gmail.com" href="https://www.facebook.com/surpanu.daniel">
+    <author email="massimiliano.zirilli@gmail.com" href="https://www.facebook.com/maxzirilli">
         Daniel Surpanu
     </author>
+    <icon src="res/Icona.png" />
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
@@ -24,6 +25,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="^7.1.4" />
-    <engine name="browser" spec="^5.0.4" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
 </widget>
